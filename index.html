@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Louis's Amazign Website</title>
+         <style>
+            body {
+                background: rgb(0, 0, 0);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: Times;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(50, 255, 150);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border-radius:30px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(0, 0, 0);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(50, 255, 150);
+                display: flex;
+                border-radius:30px;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+            }
+            .sidebar img {
+                width: 200px;
+                height: 125px;
+                border-radius:30px;
+                margin-bottom:45px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="all contents">
+            <nav>
+                <header>Louis's Website</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfplio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            <main>
+               <div class="sidebar">
+                   <img src="https://cdn.newsapi.com.au/image/v1/fb21b0a8b881448a2fc5f8011ce320b6">
+                   <img src="https://www.sccpre.cat/mypng/detail/11-116322_playstation-4-controller-vector-and-png-free-download.png">
+               </div>
+               <div class="content">
+                   <section class="interests">
+                       
+                       <header>Intersts</header>
+                       <ul>
+                           <li>Computers</li>
+                           <li>Science</li>
+                           <li>Turtles</li>
+                       </ul>
+                   </section>
+                   
+                   <section class="hobbies">
+                   
+                        <header>Hobbies</header>
+                        <ul>
+                            <li>Videogames</li>
+                            <li>Movies</li>
+                            <li>Youtube</li>
+                                
+                        </ul>
+                       
+                   </section>
+                   <section>
+                        <header>Want to Learn more about Turtles?</header>
+                        <a href="https://en.wikipedia.org/wiki/Turtle">click me</a>
+                        <header>Want to Learn more about Videogames?</header>
+                        <a href="https://en.wikipedia.org/wiki/Video_game">click me</a>
+                   </section>
+                   
+               </div>
+            </main>
+        </div>
+    </body>
+</html>
